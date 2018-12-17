@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Check for overdue NeedIt Tasks, close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure.</description>
+        <label_cache>[{"name":"5018b935-5a88-41e0-bb40-728a8c2a674f.property_value","label":"1➛property_value","reference_display":"property_value"},{"name":"7f34b04a-faec-4319-8317-f9ada83346be.calculated_date","label":"2➛calculated_date","reference_display":"calculated_date"},{"name":"45bcc99a-008a-4491-9368-18203903f35b.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records"},{"name":"def60a21-921f-4176-bc22-9d267f0e18ae.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"45bcc99a-008a-4491-9368-18203903f35b.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"45bcc99a-008a-4491-9368-18203903f35b.Count","label":"3➛Count","reference_display":"Count"},{"name":"def60a21-921f-4176-bc22-9d267f0e18ae.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"}]</label_cache>
+        <name>Update  overdue NeedIt Tasks</name>
+        <parent_flow display_value="Update  overdue NeedIt Tasks">9c09f97fdb5223009076324d7c9619b2</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-17 15:33:59</sys_created_on>
+        <sys_id>a87bb133db9223009076324d7c9619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update  overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_a87bb133db9223009076324d7c9619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-17 15:33:59</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
